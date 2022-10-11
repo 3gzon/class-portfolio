@@ -1,0 +1,536 @@
+@font-face {
+  font-family: Merriweather bold;
+  src: url(./Fonts/static/MerriweatherSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: Merriweather bold italic;
+  src: url(./Fonts/static/MerriweatherSans-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Merriweather extra bold;
+  src: url(./Fonts/static/MerriweatherSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Merriweather extra bold italic;
+  src: url(./Fonts/static/MerriweatherSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Merriweather rregular;
+  src: url(./Fonts/static/MerriweatherSans-Regular.ttf);
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+section {
+  padding: 50px 120px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Merriweather rregular;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #02454c;
+}
+
+header ul li a:hover {
+  border-bottom: 3px solid #81133b;
+  transition: ease-in 0.3s;
+}
+
+.main-part {
+  background-image: url(./images/AutismSociety_DellilahMcLane_219-copy-scaled.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.main-part .main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-part .main-text h4 {
+  font-family: Merriweather bold;
+  color: #02454c;
+}
+
+.main-part .main-text h1 {
+  font-family: Merriweather bold;
+  color: #02454c;
+  font-size: 40px;
+}
+
+.main-part .main-text p {
+  font-family: Merriweather rregular;
+  color: #02454c;
+}
+
+.main-part .main-text a {
+  text-decoration: none;
+  color: #f38830;
+  border: 2px solid #e8cbb4;
+  background-color: #e8cbb4;
+  font-family: Merriweather rregular;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+.about-us .container .row {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us .container .row .col1,
+.col2 {
+  flex-basis: 40%;
+}
+
+.about-us .col1 h1 {
+  font-family: Merriweather bold;
+  font-size: 50px;
+  color: #81133b;
+}
+
+.about-us .col1 a {
+  text-decoration: none;
+  font-family: Merriweather rregular;
+  font-size: 20px;
+  border: 3px solid #f38830;
+  border-radius: 10px;
+  padding: 10px;
+  color: #f38830;
+}
+
+.about-us .col2 h2 {
+  font-family: Merriweather rregular;
+  font-size: 30px;
+  color: #81133b;
+}
+
+.about-us .col2 p {
+  font-family: Merriweather rregular;
+  color: #81133b;
+}
+
+.about-us .col2 h6 {
+  font-family: Merriweather bold;
+  color: #f38830;
+  font-size: 15px;
+}
+
+
+
+.get-involved .row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  align-items: flex-end;
+}
+
+.col-one {
+  padding: 40px !important;
+}
+
+.get-involved .row .col {
+  flex-basis: 50%;
+  background-color: #bde6d3;
+  justify-content: center;
+  padding: 10px;
+}
+
+.get-involved .col h2 {
+  font-family: Merriweather bold;
+  font-size: 30px;
+  color: #02454c;
+}
+
+.get-involved .col p {
+  font-family: Merriweather rregular;
+  font-size: 18px;
+  color: #02454c;
+}
+
+.get-involved .col a {
+  text-decoration: none;
+  font-family: Merriweather bold;
+  font-size: 17px;
+  color: #02454c;
+  border-left: 2px solid #02454c;
+  border-right: 2px solid #02454c;
+  border-radius: 8px;
+}
+
+.find {
+  background-image: url(./images/ginger.jpg);
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.find .row {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  transform: translate(50%, 50%);
+  top: 50%;
+  left: 70%;
+}
+
+.find .col h2 {
+  font-family: Merriweather bold;
+  font-size: 20px;
+  color: #bde6d3;
+}
+
+.find .col p {
+  font-family: Merriweather rregular;
+  font-size: 17px;
+  color: #bde6d3;
+}
+
+.find .col a {
+  font-family: Merriweather rregular;
+  font-size: 17px;
+  color: #bde6d3;
+}
+
+.find .col i {
+  color: #bde6d3;
+  font-size: 20px;
+}
+
+.understanding .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  position: relative;
+}
+
+.understanding .col {
+  text-align: center;
+  background-color: #02454c;
+  position: relative;
+  flex-basis: 50%;
+}
+
+.understanding .col .text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+}
+
+.understanding .col .text h1 {
+  font-family: Merriweather bold;
+  font-size: 30px;
+  color: #bde6d3;
+}
+
+.understanding .col .text p {
+  font-family: Merriweather rregular;
+  font-size: 17px;
+  color: #bde6d3;
+}
+
+.understanding .col .text a {
+  text-decoration: none;
+  color: #bde6d3;
+  font-family: Merriweather bold;
+  font-size: 15px;
+  border: 2px solid #bde6d3;
+  padding: 8px;
+}
+
+.knowledge .row {
+  display: flex;
+  justify-content: center;
+}
+
+.knowledge .row .col {
+  column-gap: 10px;
+  flex-basis: 50%;
+}
+
+.knowledge li {
+  border: 2px solid #bde6d3;
+  background-color: #bde6d3;
+  color: #02454c;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.knowledge .row .col img {
+  width: 100%;
+}
+
+.knowledge .text {
+  text-align: center;
+}
+
+.knowledge .text h1 {
+  font-size: 30px;
+  color: #02454c;
+}
+
+.knowledge .text p {
+  font-size: 15px;
+  color: #000000;
+}
+
+.knowledge .text h1 {
+  font-family: Merriweather extra bold;
+  font-size: 40px;
+  color: #02454c;
+}
+
+.knowledge .text p {
+  color: #02454c;
+  font-family: Merriweather rregular;
+  font-size: 17px;
+}
+
+.knowledge ul li {
+  font-family: Merriweather bold;
+  font-size: 25px;
+  color: #02454c;
+}
+
+.connect {
+  background-image: url(./images/connect\ shape.svg);
+  background-repeat: no-repeat;
+}
+
+.connect .row {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.connect .row .col1 .col2 {
+  column-gap: 10px;
+}
+
+.connect .col1 h1 {
+  color: #ffcaca;
+  font-size: 18px;
+  font-family: Merriweather bold;
+
+}
+
+.connect .col1 h6 {
+  font-size: 15px;
+  color: #310113;
+  font-family: Merriweather rregular;
+
+}
+
+.connect .col2 h1 {
+  font-size: 30px;
+  color: #81133b;
+  font-family: Merriweather bold;
+}
+
+.connect .col2 p {
+  font-size: 17px;
+  color: #02454c;
+  font-family: Merriweather rregular;
+}
+
+.connect .col2 a {
+  text-decoration: none;
+  color: #f38830;
+  border-left: 2px solid #f38830;
+  border-radius: 10px;
+  border-right: 2px solid #f38830;
+  font-family: Merriweather bold;
+}
+
+.connect-support .row {
+  display: flex;
+  background-color: #02454c;
+  margin-top: 100px;
+}
+
+.connect-support .row .col {
+  justify-content: center;
+  flex-basis: 50%;
+  text-align: center;
+  padding: 20px;
+}
+
+.connect-support .col h1 {
+  font-family: Merriweather extra bold;
+  font-size: 30px;
+  color: #bde6d3;
+}
+
+.connect-support .row .col a {
+  text-decoration: none;
+  border: 3px solid #bde6d3;
+  font-family: Merriweather bold;
+  font-size: 20px;
+  color: #bde6d3;
+  padding: 8px;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #e9eaee;
+}
+
+footer i {
+  color: #363839;
+}
+
+footer h2 {
+  font-family: Merriweather extra bold;
+  font-size: 20px;
+  color: #363839;
+}
+
+@media only screen and (min-width:0px) and (max-width:768px) {
+  section {
+    padding: 0;
+  }
+
+  header ul {
+    display: block;
+  }
+
+  .main-part {
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+  }
+
+  .main-part .main-text h4 {
+    font-size: 15px;
+
+  }
+
+  .main-part .main-text h1 {
+    font-size: 30px;
+  }
+
+  .main-part .main-text p {
+    font-size: 15px;
+  }
+
+  .main-part a {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .about-us .row {
+    display: block !important;
+    margin-left: 10px;
+  }
+
+  .get-involved .row {
+    display: block;
+  }
+
+  .get-involved .row .col {
+    padding-left: 10px;
+  }
+
+  .find {
+    height: 70vh;
+  }
+
+  .understanding .row {
+    display: block;
+
+  }
+
+  .understanding .col {
+    background-color: #ffffff;
+  }
+
+  .understanding img {
+    width: 100%;
+  }
+
+  .understanding .col .text h1 {
+    font-size: 20px;
+    color: #02454c;
+  }
+
+  .understanding .col .text p {
+    font-size: 12px;
+    color: #02454c;
+    margin-bottom: 100px;
+  }
+
+  .knowledge .row {
+    display: block;
+  }
+
+  .knowledge ul {
+    margin-right: 50px;
+  }
+
+  .connect .row {
+    display: block;
+  }
+
+  .connect img {
+    width: 100%;
+  }
+
+  .connect .col2 p {
+    color: #bde6d3;
+    margin-top: -100px;
+  }
+
+  .connect-support .row {
+    display: block;
+  }
+}

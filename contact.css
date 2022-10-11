@@ -1,0 +1,413 @@
+@font-face {
+    font-family: Merriweather bold;
+    src: url(./Fonts/static/MerriweatherSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Merriweather bold italic;
+    src: url(./Fonts/static/MerriweatherSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Merriweather extra bold;
+    src: url(./Fonts/static/MerriweatherSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Merriweather extra bold italic;
+    src: url(./Fonts/static/MerriweatherSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Merriweather rregular;
+    src: url(./Fonts/static/MerriweatherSans-Regular.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+section {
+    padding: 50px 120px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Merriweather rregular;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #02454c;
+}
+
+header ul li a:hover {
+    border-bottom: 3px solid #81133b;
+    transition: ease-in 0.3s;
+}
+
+.topic {
+    background-color: #02454c;
+
+}
+
+.topic h1 {
+    font-family: Merriweather extra bold;
+    font-size: 40px;
+    color: #bde6d3;
+}
+
+.explore h4 {
+    font-family: Merriweather bold;
+    font-size: 19px;
+    color: #c9c9c9;
+}
+
+.explore h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #02454c;
+}
+
+.explore p {
+    font-family: Merriweather rregular;
+    font-size: 16px;
+    color: #02454c;
+    border-bottom: 4px solid #c9c9c9;
+    padding-bottom: 100px;
+}
+
+.exploreList .row {
+    display: flex;
+}
+
+.exploreList .row .col {
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.exploreList .row .col ul li {
+    border: 3px solid #bde6d3;
+    background-color: #bde6d3;
+    font-family: Merriweather bold;
+    color: #02454c;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inbox .row {
+    display: flex;
+}
+
+.inbox .row .col {
+    flex-basis: 50%;
+    background-color: #02454c;
+}
+
+.inbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.inbox h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #bde6d3;
+    margin-left: 10px;
+}
+
+.inbox p {
+    font-family: Merriweather rregular;
+    font-size: 15px;
+    color: #bde6d3;
+    margin-left: 10px;
+}
+
+.inbox input[type='email'] {
+    border: 2px solid #bde6d3;
+    background-color: #02454c;
+    margin-left: 10px;
+}
+
+.inbox a {
+    text-decoration: none;
+    color: #02454c;
+    font-family: Merriweather rregular;
+    font-size: 16px;
+    background-color: #bde6d3;
+    padding: 3px;
+}
+
+.source .row {
+    display: flex;
+    align-items: center;
+}
+
+.source .row .col {
+    justify-content: space-between;
+    flex-basis: 50%;
+
+}
+
+.source h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #81133b;
+}
+
+.source p {
+    font-family: Merriweather rregular;
+    font-size: 16px;
+    color: #81133b;
+}
+
+.extraEmail {
+    padding: 4px;
+}
+
+.extraEmail::placeholder {
+    color: #bde6d3;
+    font-family: Merriweather rregular;
+}
+
+.source a {
+    text-decoration: none;
+    font-family: Merriweather bold;
+    font-size: 15px;
+    color: #81133b;
+    border: 3px solid #81133b;
+    padding: 8px;
+}
+
+.source a:hover {
+    background-color: #81133b;
+    color: #ffffff;
+}
+
+.connect-support .row {
+    display: flex;
+    background-color: #02454c;
+    margin-top: 100px;
+}
+
+.connect-support .row .col {
+    justify-content: center;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.connect-support .col h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #bde6d3;
+}
+
+.connect-support .row .col a {
+    text-decoration: none;
+    border: 3px solid #bde6d3;
+    font-family: Merriweather bold;
+    font-size: 20px;
+    color: #bde6d3;
+    padding: 8px;
+}
+
+.contact img {
+    width: 150px;
+    height: 150px;
+}
+
+.contact .row {
+    display: flex;
+}
+
+.contact .col {
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.contact p {
+    font-family: Merriweather bold;
+    font-size: 20px;
+    color: #02454c;
+}
+
+.contact .name {
+    width: 100%;
+    margin-top: 10px;
+    border: 3px solid #02454c;
+    padding: 8px;
+    color: #02454c;
+}
+
+.contact .lastName {
+    width: 100%;
+    margin-top: 10px;
+    border: 3px solid #02454c;
+    padding: 8px;
+}
+
+.contact .email {
+    width: 100%;
+    margin-top: 10px;
+    border: 3px solid #02454c;
+    padding: 8px;
+}
+
+.contact .password {
+    width: 100%;
+    margin-top: 10px;
+    border: 3px solid #02454c;
+    padding: 8px;
+}
+
+.contact .submit {
+    text-decoration: none;
+    border: 3px solid #02454c;
+    font-family: Merriweather bold;
+    color: #bde6d3;
+    background-color: #02454c;
+    position: relative;
+    top: 40px;
+    left: 450px;
+    padding: 10px;
+}
+
+.contact input::placeholder {
+    font-family: Merriweather rregular;
+    color: #02454c;
+}
+
+
+
+
+footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #e9eaee;
+}
+
+footer i {
+    color: #363839;
+}
+
+footer h2 {
+    font-family: Merriweather extra bold;
+    font-size: 20px;
+    color: #363839;
+}
+
+@media only screen and (min-width:0px) and (max-width:768px) {
+    section {
+        padding: 0;
+    }
+
+    header ul {
+        display: block;
+    }
+
+    .topic {
+        height: 20vh;
+        text-align: center;
+    }
+
+    .exploreList .row {
+        display: block;
+    }
+
+    .exploreList ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .inbox .row {
+        display: block;
+    }
+
+    .inbox input {
+        margin-bottom: 10px;
+    }
+
+    .source .row {
+        display: block;
+    }
+
+    .source img {
+        width: 107%;
+    }
+
+    .source .row .col {
+        margin-left: 10px;
+    }
+
+    .connect-support .row {
+        display: block;
+    }
+
+    .contact .row {
+        display: block;
+    }
+
+    .contact .name {
+        width: 94%;
+    }
+
+    .contact .lastName {
+        width: 94%;
+    }
+
+    .contact .email {
+        width: 94%;
+    }
+
+    .contact .password {
+        width: 94%;
+    }
+
+    .contact p {
+        margin-left: 10px;
+    }
+
+    .contact {
+        margin-bottom: 100px;
+    }
+
+    .contact .submit {
+        position: relative;
+        top: 39px;
+        left: 11px;
+
+    }
+
+
+}

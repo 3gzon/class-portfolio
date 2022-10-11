@@ -1,0 +1,429 @@
+@font-face {
+    font-family: Merriweather bold;
+    src: url(./Fonts/static/MerriweatherSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Merriweather bold italic;
+    src: url(./Fonts/static/MerriweatherSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Merriweather extra bold;
+    src: url(./Fonts/static/MerriweatherSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Merriweather extra bold italic;
+    src: url(./Fonts/static/MerriweatherSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Merriweather rregular;
+    src: url(./Fonts/static/MerriweatherSans-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+section {
+    padding: 50px 120px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Merriweather rregular;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #02454c;
+}
+
+header ul li a:hover {
+    border-bottom: 3px solid #81133b;
+    transition: ease-in 0.3s;
+}
+
+.involved {
+    background-image: url(./images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.involved .row {
+    display: flex;
+    align-items: center;
+}
+
+.involved .row .col {
+    justify-content: space-between;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.involved h4 {
+    font-family: Merriweather bold;
+    font-size: 20px;
+    color: #81133b;
+}
+
+.involved h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #81133b;
+}
+
+.waysToGive .row {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.waysToGive .row .col {
+    flex-basis: 50%;
+    margin-left: 10px;
+}
+
+.waysToGive .row .col h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #81133b;
+}
+
+.waysToGive .row .col p {
+    font-family: Merriweather rregular;
+    font-size: 17px;
+    color: #81133b;
+}
+
+.donate {
+    background-color: #bde6d3;
+    text-align: center;
+}
+
+.donate h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #02454c;
+
+}
+
+.donate h2 {
+    font-family: Merriweather bold;
+    font-size: 20px;
+    color: #02454c;
+}
+
+.donate p {
+    font-family: Merriweather rregular;
+    font-size: 18px;
+    color: #02454c;
+}
+
+.fundraising {
+    background-image: url(./images/background\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.fundraising .row {
+    display: flex;
+}
+
+.fundraising .row .col {
+    justify-content: space-between;
+    flex-basis: 50%;
+    margin-left: 20px;
+}
+
+.fundraising .row .col h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #81133b;
+}
+
+.fundraising .col h3 {
+    font-family: Merriweather bold;
+    font-size: 20px;
+    color: #81133b;
+
+}
+
+.fundraising .col p {
+    font-family: Merriweather rregular;
+    font-size: 17px;
+    color: #81133b;
+}
+
+.brothers {
+    background-image: url(./images/brothers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.fundraiser .row {
+    display: flex;
+}
+
+.fundraiser .row .col {
+    background-color: #02454c;
+
+}
+
+.fundraiser .row .col h1 {
+    font-family: Merriweather bold;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.fundraiser .row .col p {
+    font-family: Merriweather rregular;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.workplace {
+    background-image: url(./images/background\ 4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.workplace h1 {
+    font-family: Merriweather bold;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.workplace p {
+    font-family: Merriweather rregular;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.volunteer h1 {
+    font-family: Merriweather bold;
+    font-size: 30px;
+    color: #02454c;
+}
+
+.volunteer p {
+    font-family: Merriweather rregular;
+    font-size: 17px;
+    color: #02454c;
+}
+
+.volunteer .row {
+    display: flex;
+}
+
+.volunteer .row .col {
+    flex-basis: 50%;
+}
+
+.volunteer h3 {
+    font-family: Merriweather bold;
+    font-size: 20px;
+    color: #02454c;
+}
+
+.volunteer .row .col p {
+
+    font-family: Merriweather rregular;
+    font-size: 15px;
+    color: #02454c;
+}
+
+.volunteer ul li {
+    list-style-type: circle;
+}
+
+.support {
+    background-image: url(./images/background\ mint.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.support h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #02454c;
+}
+
+.support p {
+
+    font-family: Merriweather rregular;
+    font-size: 17px;
+    color: #02454c;
+}
+
+.support .row {
+    display: flex;
+}
+
+.support .row .col {
+    flex-basis: 50%;
+}
+
+.support li {
+    list-style-type: none;
+    border: 3px solid #f2e5dd;
+    background-color: #f2e5dd;
+    color: #02454c;
+    font-family: Merriweather bold;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.connect-support .row {
+    display: flex;
+    background-color: #02454c;
+    margin-top: 100px;
+}
+
+.connect-support .row .col {
+    justify-content: center;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.connect-support .col h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #bde6d3;
+}
+
+.connect-support .row .col a {
+    text-decoration: none;
+    border: 3px solid #bde6d3;
+    font-family: Merriweather bold;
+    font-size: 20px;
+    color: #bde6d3;
+    padding: 8px;
+}
+
+footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #e9eaee;
+}
+
+footer i {
+    color: #363839;
+}
+
+footer h2 {
+    font-family: Merriweather extra bold;
+    font-size: 20px;
+    color: #363839;
+}
+
+@media only screen and (min-width:0px) and (max-width:768px) {
+    section {
+        padding: 0;
+    }
+
+    header ul {
+        display: block;
+    }
+
+    .involved .row {
+        display: block;
+    }
+
+    .involved img {
+        width: 100%;
+    }
+
+    .waysToGive .row {
+        display: block;
+    }
+
+    .waysToGive img {
+        width: 98%;
+    }
+
+    .fundraising .row {
+        display: block;
+    }
+
+    .fundraising img {
+        width: 100%;
+    }
+
+    .brothers {
+        height: 50vh;
+    }
+
+    .fundraiser .row {
+        display: block;
+    }
+
+    .fundraiser .row .col h1 {
+        margin: 0;
+    }
+
+
+    .workplace {
+        height: 120vh;
+    }
+
+    .volunteer .row {
+        display: block;
+    }
+
+    .support .row {
+        display: block;
+    }
+
+    .supportimg {
+        width: 100%;
+    }
+
+    .connect-support {
+        margin-top: 567px;
+    }
+
+    .connect-support .row {
+        display: block;
+    }
+
+}

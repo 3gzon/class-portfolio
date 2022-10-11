@@ -1,0 +1,355 @@
+@font-face {
+    font-family: Merriweather bold;
+    src: url(./Fonts/static/MerriweatherSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Merriweather bold italic;
+    src: url(./Fonts/static/MerriweatherSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Merriweather extra bold;
+    src: url(./Fonts/static/MerriweatherSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Merriweather extra bold italic;
+    src: url(./Fonts/static/MerriweatherSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Merriweather rregular;
+    src: url(./Fonts/static/MerriweatherSans-Regular.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+section {
+    padding: 50px 120px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Merriweather rregular;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #02454c;
+}
+
+header ul li a:hover {
+    border-bottom: 3px solid #81133b;
+    transition: ease-in 0.3s;
+}
+
+.inspiration {
+    background-image: url(./images/background\ mint\ 2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.inspiration .row {
+    display: flex;
+
+}
+
+.inspiration .row .col {
+    flex-basis: 50%;
+    padding-left: 10px;
+}
+
+.inspiration .row .col h4 {
+    font-family: Merriweather rregular;
+    font-size: 15px;
+    color: #02454c;
+    text-align: left;
+}
+
+.inspiration .row .col h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #02454c;
+    text-align: left;
+}
+
+.inspiration .row .col p {
+    font-family: Merriweather rregular;
+    font-size: 16px;
+    color: #02454c;
+}
+
+.change .row {
+    display: flex;
+}
+
+.change .row .col {
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.change .row .col h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #81133b;
+}
+
+.change .row .col h3 {
+    font-family: Merriweather bold;
+    font-size: 20px;
+    color: #81133b;
+}
+
+.change .row .col p {
+    font-family: Merriweather rregular;
+    font-size: 16px;
+    color: #81133b;
+}
+
+.change a {
+    text-decoration: none;
+    font-family: Merriweather bold;
+    font-size: 18px;
+    color: #f38830;
+    border-left: 3px solid #f38830;
+    border-right: 3px solid #f38830;
+    border-radius: 10px;
+}
+
+.motherSon {
+    background-image: url(./images/mother\ son.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.opportunity {
+    background-image: url(./images/background\ 5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.opportunity .row {
+    display: flex;
+}
+
+.opportunity .row .col {
+    justify-content: space-between;
+    flex-basis: 50%;
+    position: relative;
+    top: 300px;
+}
+
+.opportunity ul li {
+    border: 3px solid #bde6d3;
+    background-color: #bde6d3;
+    font-family: Merriweather bold;
+    color: #02454c;
+    padding: 15px;
+    margin: 10px;
+}
+
+.opportunity h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #bde6d3;
+}
+
+.opportunity p {
+    font-family: Merriweather rregular;
+    font-size: 16px;
+    color: #bde6d3;
+}
+
+.opportunity a {
+    text-decoration: none;
+    border: 3px solid #bde6d3;
+    font-family: Merriweather bold;
+    font-size: 15px;
+    padding: 8px;
+    color: #bde6d3;
+}
+
+.opportunity a:hover {
+    background-color: #bde6d3;
+    color: #02454c;
+}
+
+.stayInformed .row {
+    display: flex;
+}
+
+.stayInformed .row .col {
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.stayInformed .row .col h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #81133b;
+}
+
+.stayInformed .row .col h3 {
+    font-family: Merriweather bold;
+    font-size: 20px;
+    color: #81133b;
+}
+
+.stayInformed .row .col p {
+    font-family: Merriweather rregular;
+    font-size: 16px;
+    color: #81133b;
+}
+
+.stayInformed .row .col a {
+    text-decoration: none;
+    font-family: Merriweather bold;
+    color: #f38830;
+    border: 3px solid #f38830;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.connect-support .row {
+    display: flex;
+    background-color: #02454c;
+    margin-top: 100px;
+}
+
+.connect-support .row .col {
+    justify-content: center;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.connect-support .col h1 {
+    font-family: Merriweather extra bold;
+    font-size: 30px;
+    color: #bde6d3;
+}
+
+.connect-support .row .col a {
+    text-decoration: none;
+    border: 3px solid #bde6d3;
+    font-family: Merriweather bold;
+    font-size: 20px;
+    color: #bde6d3;
+    padding: 8px;
+}
+
+footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #e9eaee;
+}
+
+footer i {
+    color: #363839;
+}
+
+footer h2 {
+    font-family: Merriweather extra bold;
+    font-size: 20px;
+    color: #363839;
+}
+
+@media only screen and (min-width:0px) and (max-width:768px) {
+    section {
+        padding: 0;
+    }
+
+    header ul {
+        display: block;
+    }
+
+    .inspiration .row {
+        display: block;
+    }
+
+    .inspiration img {
+        width: 100%;
+    }
+
+    .change .row {
+        display: block;
+        margin-top: 205px;
+    }
+
+    .motherSon {
+        height: 50vh;
+    }
+
+    .opportunity {
+        height: 200vh;
+    }
+
+    .opportunity ul {
+        margin-right: 40px;
+    }
+
+    .opportunity .row {
+        display: block;
+        position: relative;
+        top: -200px;
+    }
+
+    .opportunity .row .col {
+        position: relative;
+        top: 396px;
+    }
+
+    .opportunity .row .col-two {
+        margin-top: 340px;
+    }
+
+
+    .opportunity .row .col-two {
+        margin-top: 250px;
+        margin-left: 10px;
+    }
+
+    .stayInformed .row {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .connect-support .row {
+        display: block;
+    }
+}
